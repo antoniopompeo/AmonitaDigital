@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amonita</title>
+	<link rel="stylesheet" type="text/css" href="css/glider.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css?v=10"> <!-- the ?v=3 is in order to force the css refresh -->
+	<meta charset="utf-8">
+	<meta name="keywords" content=""> <!-- completar -->
+    <meta name="description" content=""> <!-- completar -->
+    <meta name="author" content=""> <!-- completar -->
+    <meta name="copyright" content=""> <!-- completar -->
+    <meta name="robots" content="index"> <!-- completar -->
+	
+	<!-- in order to do not let the mobile browser change the font size 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+	<!-- in order to refresh the html in all browsers -->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+
+	<!-- Meta Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '745113870021319');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=745113870021319&ev=PageView&noscript=1"/></noscript>
+	<!-- End Meta Pixel Code -->
+	
+    <link rel="icon" href="img/icono.ico"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+	<div class="header">
+			<div class="header_left">
+				<a class="header_button" id="portfolio_button">Portfolio</a>
+				<a class="header_button" id="contactanos_button">Contactanos</a>
+			</div>
+			<div class="header_center">
+				<img class="header_button" id="logo_button" src="img/logo_tipografico.png">
+			</div>
+			<div class="header_right">
+				<a class="header_button" id="servicios_button">Servicios</a>
+				<a class="header_button" id="clientes_button">Clientes</a>
+			</div>
+	</div>
+	
+	<div class="banner">
+		<div class="banner_text">
+			<div class="banner_text_upperLine"></div>
+			<h4 class="banner_text_title">¿Estás <span class="ready">ready</span> <br> para crecer?</h4>
+			<p class="banner_text_subtitle">Dejale el trabajo a las expertas <br> y disfruta de los resultados</p>
+			<div class="banner_text_lowerLine"></div>
+		</div>
+	</div>
+
+	<div class="portfolio_container" id="portfolio">
+		
+		<div class="portfolio_logo">
+			<img src="img/logo.png">
+		</div>
+
+		<div class="portfolio_text">
+			<h4 class="portfolio_title">Sabemos que primero quieres confiar en nosotras</h4>
+			<h5 class="portfolio_subtitle">así que te mostramos nuestro trabajo.</h5>
+		</div>
+
+		<div class="portfolio_line"></div>
+
+		<div class="portfolio__carousel_container">
+			<button aria-label="Previous" class="portfolio__glider-prev"><img class="left_button" src="img/icons/mobile_chevron_left.png"></button>
+			<div class="portfolio__carousel">
+				<div class="portfolio__carousel_element" data-src="img/portfolio/food_photos/" data-type=".jpg" data-qty="73" data-title="Food Photos">
+					<div class="img_container" ><img class="portfolio__carousel_img" src="img/portfolio/food_photos/cover.jpg" alt="FOOD PHOTOS"></div>
+					<p class="portfolio__carousel_desc">Food Photos</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+				<div class="portfolio__carousel_element" data-src="img/portfolio/fashion_photos/" data-type=".jpg" data-qty="47" data-title="Fashion Photos">
+					<div class="img_container"><img class="portfolio__carousel_img" src="img/portfolio/fashion_photos/cover.jpg"  alt="FASHION PHOTOS"></div>
+					<p class="portfolio__carousel_desc">Fashion Photos</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+				<div class="portfolio__carousel_element" data-src="img/portfolio/product_photos/" data-type=".jpg" data-qty="20" data-title="Product Photos">
+					<div class="img_container"><img class="portfolio__carousel_img" src="img/portfolio/product_photos/cover.jpg" alt="PRODUCT PHOTOS"></div>
+					<p class="portfolio__carousel_desc">Product Photos</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+				<div class="portfolio__carousel_element" data-src="img/portfolio/films/" data-type=".mp4" data-qty="13" data-title="Films">
+					<div class="img_container"><img class="portfolio__carousel_img" src="img/portfolio/films/cover.jpg" alt="FILMS"></div>
+					<p class="portfolio__carousel_desc">Films</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+				<div class="portfolio__carousel_element" data-src="img/portfolio/gestiones/" data-type=".mp4" data-qty="1" data-title="Gestiones">
+					<div class="img_container"><img class="portfolio__carousel_img" src="img/portfolio/gestiones/cover.jpg" alt="GESTIONES"></div>
+					<p class="portfolio__carousel_desc">Gestiones</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+				<div class="portfolio__carousel_element" data-src="img/portfolio/campañas/" data-type=".mp4" data-qty="1" data-title="Campañas">
+					<div class="img_container"><img class="portfolio__carousel_img" src="img/portfolio/campañas/cover.jpg" alt="CAMPAÑAS"></div>
+					<p class="portfolio__carousel_desc">Campañas</p>
+					<p class="portfolio__carousel_subdesc">→ Ver galeria ←</p>
+				</div>
+			</div>
+			<button aria-label="Next" class="portfolio__glider-next"><img class="right_button" src="img/icons/mobile_chevron_right.png"></button>
+		</div>
+		<div role="tablist" class="portfolio_dots"></div>
+
+
+		<div class="modal">
+			<div class="modal_header">
+				<h4 class="modal_title"></h4>
+				<button class="gallery_exit"><img class="exit_button" src="img/icons/mobile_exit.png"></button>
+			</div>
+			<div class="gallery_container">
+				<div class="gallery"></div>
+			</div>	
+		</div>
+	</div>
+
+
+	<div class="phrase_container">
+		<h4 class="phrase">Es momento de dar el gran paso,<br> nosotras te cubrimos.</h4>
+	</div>
+
+
+	<div class="services__carousel_container">
+		<button aria-label="Previous" class="services__glider-prev"><img class="left_button" src="img/icons/mobile_chevron_left.png"></button>
+		<div class="services__carousel">
+			<div class="services__carousel_element">
+				<img class="services__carousel_img" src="img/services/services_01.jpg" alt="PACK BASICO">
+				<div class="services__carousel_text">
+					<div class="services_line"></div>
+					<h4 class="services_title">Pack Básico</h4>
+					<p class="services_p">10 Fotos + edición simple</p>
+					<p class="services_p">1 Reel filmación + Edición</p>
+					<p class="services_p">Estrategia + Ideas de Contenido</p>
+					<p class="services_p">Asesoría sobre la gestión del contenido</p>
+					<p class="services_p">1 campaña + Configuración</p>
+					<p class="services_p">Manual de Marca + Creación de Cuentas (*)</p>
+					<p class="services_p letra_chica">(*) Para marcas que necesitan rebranding o recién comienzan</p>
+				</div>
+			</div>
+			<div class="services__carousel_element">
+				<img class="services__carousel_img" src="img/services/services_02.jpg" alt="PACK STARTER">
+				<div class="services__carousel_text">
+					<div class="services_line"></div>
+					<h4 class="services_title">Pack Starter</h4>
+					<p class="services_p">15 Fotos + edición simple</p>
+					<p class="services_p">5 Reel filmación + Edición</p>
+					<p class="services_p">16 Historias</p>
+					<p class="services_p">Estrategia + Ideas de Contenido</p>
+					<p class="services_p">Gestión de Contenido en Instagram</p>
+					<p class="services_p">2 Revisiones al mes</p>
+					<p class="services_p">1 Campaña de Captación de Clientes</p>
+					<p class="services_p">1 Campaña de Alcance o Tráfico</p>
+					<p class="services_p">Análisis y Optimización de las Campañas Publicitarias</p>
+				</div>
+			</div>
+			<div class="services__carousel_element">
+				<img class="services__carousel_img" src="img/services/services_03.jpg" alt="PACK PREMIUM">
+				<div class="services__carousel_text">
+					<div class="services_line"></div>
+					<h4 class="services_title">Pack Premium</h4>
+					<p class="services_p">15 Fotos + edición simple</p>
+					<p class="services_p">5 Reel filmación + Edición</p>
+					<p class="services_p">16 Historias</p>
+					<p class="services_p">Estrategia + Ideas de Contenido</p>
+					<p class="services_p">Gestión de Contenido en Instagram</p>
+					<p class="services_p">2 Revisiones al mes</p>
+					<p class="services_p">1 Campaña de Captación de Clientes</p>
+					<p class="services_p">1 Campaña de Alcance o Tráfico</p>
+					<p class="services_p">Análisis y Optimización de las Campañas Publicitarias</p>
+				</div>
+			</div>
+			<div class="services__carousel_element">
+				<img class="services__carousel_img" src="img/services/services_04.jpg" alt="ASESORIA 1 A 1">
+				<div class="services__carousel_text">
+					<div class="services_line"></div>
+					<h4 class="services_title">Asesoría 1 a 1</h4>
+					<p class="services_p">3 Encuentros mensuales</p>
+					<p class="services_p">Revisamos tu calendario de contenido</p>
+					<p class="services_p">Revisamos tu estética de marca</p>
+					<p class="services_p">Hacemos un diagnóstico de tus últimos 2 meses de contenido para detectar oportunidades de mejora</p>
+					<p class="services_p">Te damos herramientas simples y prácticas para gestionar tus redes</p>
+					<p class="services_p">Te acompañamos en el proceso para que mejores tus ventas</p>
+				</div>
+			</div>
+		</div>
+		<button aria-label="Next" class="services__glider-next"><img class="right_button" src="img/icons/mobile_chevron_right.png"></button>
+	</div>
+	<div role="tablist" class="services_dots"></div>
+
+
+
+
+	<div class="clientes">
+		<div class="clientes_head">
+			<h4 class="clientes_title">Los clientes dicen</h4>
+			<h4 class="clientes_subtitle">sobre Amonita</h4>
+		</div>	
+		<div class="clientes_carousel">
+			<div class="carousel_item carousel_item__active">
+				<div>
+					<h4 class="clientes_nombre">Laura</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">El trabajo ha sido muy placentero. Dió imagen/video a varias de mis composiciones, interpretando la esencia de mi música, cuyo resultado fue un ensamble perfecto que potenció ampliamente el contenido. También quiero compartir su responsabilidad y profesionalismo y algo muy importante: entrega los encargos en tiempo y forma.</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Agustina</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Es un placer haber trabajado con ustedes. Muy eficientes, creativas y sobre todo organizadas. Los trabajos planificados los tuve a tiempo. Es más, la mayoría de veces antes de lo pactado. Las he recomendado con mucha gente y la devolución fue espectacular. Sigan así!</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Sebastian</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Muy contento y conforme con el trabajo. Tanto en lo que es filmacion como en edicion de video. La parte artistica y humana, que es muy importante, es excelente. Ademas los precios me parecen super competitivos, la recomiendo ampliamente.</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Patricia</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Muy buena la atención y compromiso.</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">María Inés</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Es un placer haberlas conocido! Son sumamente responsables, cumplidoras, técnicamente muy capaz, muy agradable en el trato. Las recomiendo ampliamente!</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Natalia</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Recomiendo a Lucia y su equipo, super profesional. Nos hicieron una sesión de tango y nos trataron muy muy bien! Artistas y cálidas por donde se las mire!</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Ignacio</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Excelente trato, se interesan en las ideas y objetivos del cliente, aportan al proyecto y entregan el material en tiempo y forma.</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+			<div class="carousel_item">
+				<div>
+					<h4 class="clientes_nombre">Pablo</h4>
+				</div>
+				<div class="clientes_text">
+					<div>
+						<img class="clientes_comillas left" src="img/icons/comillas.png">	
+					</div>
+					<div>
+						<p class="clientes_comentarios">Muy buen trabajo, confiable, profesional, buena predisposición para entender qué es lo que uno quiere, buen aporte de ideas para los trabajos que hicimos. Realmente recomendable y definitivamente volvería a contar con ellas para futuros trabajos!</p>
+					</div>
+					<div>
+						<img class="clientes_comillas" src="img/icons/comillas.png">	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clientes_button_container">
+			<button aria-label="Previous" class="clientes_prev"><img class="left_button" src="img/icons/mobile_chevron_left.png"></button>
+			<button aria-label="Next" class="clientes_next"><img class="right_button" src="img/icons/mobile_chevron_right.png"></button>
+		</div>
+	</div>
+
+
+	<video autoplay="" muted="" loop="" class="banner_video">
+		<source src="img/banner_video.mp4" type="video/mp4">
+	</video>
+
+
+	<div class="about_us__container">
+		<div class="about_us__title_container"><h4 class="about_us__title">Conocenos un poco más</h4></div>
+		<div class="about_us">
+				<div class="about_us__text">
+					<h3 class="about_us__text__subtitle">Alejandra y Lucía</h3>
+					<p class="about_us__text__p">Hola! Somos expertas en marketing (Ale) y en Diseño (Lu).</p>
+					<p class="about_us__text__p">Nuestro propósito es hacer crecer marcas cuyos productos merecen ser conocidos.</p>
+					<p class="about_us__text__p">No somos cualquier creadora de contenido, nuestras bases son sólidas y nuestra filosofía es que cualquier negocio merece contenido de calidad en cualquier instancia que se encuentre.</p>
+					<p class="about_us__text__p center">Tu éxito es nuestro éxito!</p>
+				</div>
+				<div class="about__us__img_container"><img class="about_us__img"  src="img/about_mobile.jpg"></div>
+		</div>
+	</div>
+
+
+	<form id="my-form" action="https://formspree.io/f/mqkngyov" method="POST">
+		<h4 class="form__title">Contactanos</h4>
+		<div class="input_container">
+			<div class="input_left">
+				<input class="prevent_enter" id="contactanos_nombre" type="text" value="" placeholder="Nombre *" name="Nombre" aria-required="true">
+				<input class="prevent_enter" type="text" value="" placeholder="Nombre del negocio" name="Nombre del negocio">
+				<input class="prevent_enter" id="contactanos_email" type="email" value="" placeholder="Email *" name="Email" aria-required="true">
+				<input class="prevent_enter" id="contactanos_telefono" type="text" value="" placeholder="Teléfono *" name="Teléfono" aria-required="true">
+			</div>
+			<div class="input_right">
+				<select class="prevent_enter" id="form__select" name="Consulto por:">
+					<option value="hide">-- Consulto por: --</option>
+					<option value="Pack Basico">Pack Basico</option>
+					<option value="Pack Starter">Pack Starter</option>
+					<option value="Pack Premium">Pack Premium</option>
+					<option value="Asesorias 1 a 1">Asesorias 1 a 1</option>
+					<option value="Quiero algo especial">Quiero algo especial</option>
+				</select>
+				<textarea class="mensaje" placeholder="Mensaje" name="Mensaje"></textarea>
+			</div>
+		</div>
+		<p id="my-form-status"></p>
+		<input class="submit" type="submit" value="Entremos en contacto!">
+	</form>
+
+	<script src="js/glider.js"></script>
+	<script src="js/codigo.js?v=9"></script>
+</body>
+</html>
+
